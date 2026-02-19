@@ -283,37 +283,11 @@
         .hero {
             min-height: 100vh;
             padding-top: 72px;
-            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('photos/back.jpeg');
+            background: url('photos/back.jpeg');
             background-size: cover;
             background-position: center;
             position: relative;
             overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 80px;
-            right: -200px;
-            width: 600px;
-            height: 600px;
-            background: #f3f4f6;
-            border-radius: 50%;
-            filter: blur(80px);
-            opacity: 0.5;
-        }
-
-        .hero::after {
-            content: '';
-            position: absolute;
-            bottom: -100px;
-            left: -100px;
-            width: 400px;
-            height: 400px;
-            background: #f3f4f6;
-            border-radius: 50%;
-            filter: blur(60px);
-            opacity: 0.3;
         }
 
         .hero-container {
@@ -1650,7 +1624,7 @@
                 </div>
                 <div class="service-card animate-on-scroll stagger-3">
                     <div class="service-image">
-                        <img src="./photos/engine.jpg"
+                        <img src="https://images.unsplash.com/photo-1619648231407-1fe529eafa50?w=600&q=80"
                             alt="Paint Correction">
                         <div class="service-overlay">
                             <span class="service-price">From $299</span>
